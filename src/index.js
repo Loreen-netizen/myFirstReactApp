@@ -1,14 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Hello from './helloComp.js'
 import './index.css';
-//import App from './App';
-//import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
-  <React.StrictMode>
-    <div>Hello World</div>
-  </React.StrictMode>,
+  <Hello/>,
   document.getElementById('root')
 );
 
-// reportWebVitals();
