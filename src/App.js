@@ -16,6 +16,23 @@ const skillsArray = ["HTML, CSS , Bootstrap CSS","JavaScript and NodeJS","Databa
   });  
   }
 
+
+//  const DisplayMyWork = () =>{
+// return(
+//    <p>"Github Repository:
+//    https://github.com/Loreen-netizen/registration_numbers_webapp
+//    I built the registration numbers web application as part of my work in my Codex
+//    curriculum. This application made use of my front end and back end development skills as
+//    it allows a user to enter their vehicle registration number onto a screen. The registration
+//    number is validated using regular expressions before it is passed into a database using
+//    SQL queries where it is stored and subsequently transformed and rendered as a list item
+//    to a screen. The registration numbers web application checks if the new registration
+//    number is already in the database and therefore does not allow entry of duplicates. It also
+//    allows a user to filter through registration numbers to see only those from a specific
+//    town.</p>
+// )
+// }
+
   
 
 
@@ -35,7 +52,9 @@ const App = () =>{
 <MySkills/>
  
 <br/>
-  <button className = "button">view my work</button>
+ 
+  <a href="https://github.com/Loreen-netizen?tab=repositories"><button className = "button" >view my work </button></a>
+  
     
     
     
