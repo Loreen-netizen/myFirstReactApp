@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Hello from './helloComp.js'
+import App from './App.js'
 import './index.css';
 
 
 ReactDOM.render(
-  <Hello/>,
+  <App/>,
   document.getElementById('root')
 );
 

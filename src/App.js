@@ -19,7 +19,7 @@ const skillsArray = ["HTML, CSS , Bootstrap CSS","JavaScript and NodeJS","Databa
   
 
 
-const HelloComponant = () =>{
+const App = () =>{
   return  (<div className = "bodyCss"> 
    
   <h2 className = "pinkText" > Hello,  I'm Yeukai Loreen Muusha </h2>
@@ -42,4 +42,4 @@ const HelloComponant = () =>{
     </div>)
 }
 
-export default HelloComponant;
+export default App;
