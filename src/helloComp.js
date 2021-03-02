@@ -3,9 +3,15 @@ const MyInfo = (props) =>{
 return <h4>I'm {props.info}</h4>
 }
 
-const MySkills = (props) =>{
-  return <ul className="list">{props.skill}</ul>
-}
+const skillsArray = ["HTML, CSS , Bootstrap CSS","JavaScript and NodeJS","Database (PostgreSQL)","Version Control using Git And GitHub","Critical and analytical And Research and development skills.","Independent thinking and problem-solving"
+,"Communication and presentation skills","Teamwork, Adaptability/ Flexibility"]
+
+const MySkills = (skillsArray) =>{
+  skillsArray.map((value)=>{
+    return <ul className="list">{value}</ul>
+
+  })
+ }
 
 const HelloComponant = () =>{
   return  (<div className = "bodyCss"> 
@@ -20,14 +26,8 @@ creating something from nothing."/> </p>
 
 
 <h4 className="pinkText">I have the following skills</h4>
-<MySkills skill = "HTML, CSS , Bootstrap CSS"/>
-<MySkills skill = "JavaScript and NodeJS"/>
-<MySkills skill = "Database (PostgreSQL)"/>
-<MySkills skill = "Version Control using Git And GitHub"/>
-<MySkills skill = "Critical and analytical And Research and development skills."/>
-<MySkills skill = "Independent thinking and problem-solving"/>
-<MySkills skill = "Communication and presentation skills"/>
-<MySkills skill = "Teamwork, Adaptability/ Flexibility"/>
+<MySkills/>
+ 
 <br/>
   <button className = "button">view my work</button>
     
